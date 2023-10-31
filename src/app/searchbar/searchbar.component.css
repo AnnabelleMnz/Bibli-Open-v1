@@ -1,0 +1,39 @@
+.search-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.search-bar{
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 4px ;
+}
+
+.search-bar input {
+    border-color: transparent;
+    width: 90%;
+}
+
+.search-type-select{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    justify-content: center;
+}
+.container-or{
+display: flex;
+font-size: 16px; 
+font-weight: 600;
+padding: 0px 16px;
+justify-content: center;
+align-items: center;
+gap: 21px;
+align-self: stretch;}

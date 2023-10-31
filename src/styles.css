@@ -1,1 +1,125 @@
-/* You can add global styles to this file, and also import other style files */
+header,button, body, p, h1, h2, h3, h4, h5, h6, app-root {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FBFBFB;
+  }
+/* style bouton général */
+button{
+    border-radius: 84px;
+    background: var(--White, #FFF);
+    margin: 5px;
+ }
+
+/* double texte pour le header */
+.h2-txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--Pink, #FF315D); 
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.h3-txt{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--Marine-Blue, #000085);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* Boutons de filtre  */
+
+.btn-filter-borrowed {
+border: 1px solid var(--Dark-Purple, #730DB8);
+color: var(--Dark-Purple, #730DB8);
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+text-transform: uppercase;
+}
+
+.btn-filter-deleted {
+    border: 1px solid var(--Pink, #FF315D);
+    color: var(--Pink, #FF315D);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; 
+    text-transform: uppercase;
+}
+
+.btn-filter-available{
+    border: 1px solid var(--Marine-Blue, #000085);
+    color: var(--Marine-Blue, #000085);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+/* page visualisation livre / jeu unique */
+/* Attention il faut bien appliquer le css du contenaire au dessus pour le centrage */
+
+.btn-borrow{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 22px;
+    background-color: #000085;
+    margin-top: 10px; 
+    width: 80vw;  
+    height: 50PX;
+}
+/* 
+pour les boutons QR code */
+.container-btn-borrow {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn-borrow img{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+.btn-save-QRcode {
+    background-color: white;
+    color: black;
+    font-size: 16px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 22px; 
+    margin-top: 10px; 
+    width: 80vw;  
+    height: 50PX;
+}
+
+.btn-register-QRcode {
+    background-color: white;
+    color: black;
+    font-size: 16px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 22px; 
+    margin-top: 10px; 
+    width: 300px;  
+    height: 40PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+

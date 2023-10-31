@@ -1,0 +1,15 @@
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espace entre les cartes */
+    justify-content: space-evenly; /* Ajuster l'espacement horizontal */
+  }
+  
+  .card img {
+    width: 300px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer; /* Curseur indiquant que l'image est cliquable */
+  }
+  

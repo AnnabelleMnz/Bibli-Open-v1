@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Le Nom du vent",
+      "author": "Patrick Rothfuss",
+      "category": "Fantasy"
+
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Science Fiction"
+
+    }
+
+  ]
+}

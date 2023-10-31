@@ -1,0 +1,34 @@
+<section class="search-area">
+    <div class="search-bar">
+        <img src="assets/search.svg" alt="QRCode">
+        <input type="text"name="searchTerm" placeholder="Rechercher..." />
+        <!-- faire avec un keyUp ? -->
+    </div>
+    <div class="search-type-select">
+        <label>
+          <input type="radio" name="searchType" value="Auteur" (change)="onSearchTypeChange('Auteur')" [checked]="selectedSearchType === 'Auteur'">
+          Auteur
+        </label>
+
+        <label>
+          <input type="radio" name="searchType" value="Titre" (change)="onSearchTypeChange('Titre')" [checked]="selectedSearchType === 'Titre'">
+          Titre
+        </label>
+        
+        <label>
+          <input type="radio" name="searchType" value="Référence" (change)="onSearchTypeChange('Référence')" [checked]="selectedSearchType === 'Référence'">
+          Référence
+        </label>
+      </div>
+</section>
+
+<section class="container-or">
+   <img src="assets/vector_2.svg" alt="vector">OU <img src="assets/vector_2.svg" alt="vector">
+</section>
+
+<div class="container-btn-borrow">
+    <button class="btn-register-QRcode">
+        <img src="assets/QRcode.svg" alt="QRCode">
+        Scanner le QR code
+    </button>
+</div>
